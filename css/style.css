@@ -236,7 +236,8 @@ div {
         display: inline-block;
         margin: 0 5px;
         padding: 0 5px;
-        background: #f7f8f8; }
+        background: #dadada;
+        border-radius: 2px; }
       .post .post-content p a {
         color: #01579f;
         padding-bottom: 2px;
@@ -864,12 +865,13 @@ pre {
 /* syntax highlight*/
 figure.highlight,
 .codeblock {
-  background: #f7f8f8;
+  background: #dadada;
   margin: 10px 0;
   line-height: 1.1em;
   color: #333;
   padding-top: 15px;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 3px; }
   figure.highlight table,
   .codeblock table {
     display: block;
