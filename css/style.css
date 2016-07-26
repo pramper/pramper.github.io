@@ -17,7 +17,7 @@ html, button, input, select, textarea,
   font-family: "PingFangSC-Regular", Helvetica, "Helvetica Neue", "Segoe UI", "Hiragino Sans GB", "Source Han Sans CN", "Microsoft YaHei", "STHeiti", "WenQuanYi Micro Hei", sans-serif; }
 
 body {
-  background-color: #FFF;
+  background-color: #F9F9F5;
   color: #444;
   font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -215,10 +215,10 @@ div {
       color: #444; }
   .post .post-content {
     clear: left;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.77;
     color: #444;
-    padding-top: 15px;
+    padding-top: 30px;
     text-align: justify;
     text-justify: distribute;
     word-break: normal; }
@@ -243,6 +243,8 @@ div {
         word-break: break-all; }
         .post .post-content p a:hover {
           text-decoration: underline; }
+        .post .post-content p a i {
+          color: #000; }
       .post .post-content p .caption {
         color: #444;
         display: block;
@@ -487,7 +489,7 @@ pre {
   /*left: 50%;*/
   top: 50px;
   bottom: 50px;
-  margin-left: 10px; }
+  margin-left: 19px; }
 
 #process .timeline-centered .timeline-entry {
   position: relative;
@@ -526,7 +528,7 @@ pre {
   font-style: italic;
   font-size: 20px;
   line-height: 0;
-  color: #E7E7E5;
+  color: #aaa;
   position: relative;
   top: -4px; }
 
@@ -554,7 +556,7 @@ pre {
 
 #process .timeline-centered .timeline-entry .timeline-entry-inner {
   position: relative;
-  margin-left: -20px; }
+  margin-left: -10px; }
 
 #process .timeline-centered .timeline-entry .timeline-entry-inner:before,
 #process .timeline-centered .timeline-entry .timeline-entry-inner:after {
@@ -674,7 +676,7 @@ pre {
   position: absolute;
   top: -3%;
   right: 0;
-  margin-top: -20px;
+  margin-top: -30px;
   line-height: 100%; }
 
 #process .born {
