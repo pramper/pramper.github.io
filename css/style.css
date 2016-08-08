@@ -870,7 +870,6 @@ figure.highlight,
   margin: 10px 0;
   line-height: 1.1em;
   color: #333;
-  padding-top: 15px;
   overflow: hidden;
   border-radius: 3px; }
   figure.highlight table,
@@ -1425,7 +1424,7 @@ figure.highlight,
 
 /* table*/
 table {
-  margin: auto auto 15px;
+  margin: auto auto 0px;
   width: 100%;
   background: transparent;
   border-collapse: collapse;
